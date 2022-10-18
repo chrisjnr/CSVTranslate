@@ -1,0 +1,11 @@
+filename: "../localization/translations.csv"        # CSV file (CSV_FILENAME) to convert from
+langs:                                                                    # Languages to convert. i.e. English:en
+  English: "en"
+  Portuguese: "pt"
+output_dir: "../../src/main/res/"                                 # Path of output files
+default_lang: "English"                                                   # Header name of column containing fallback value if value is empty
+csv_separator: ';'                                                        # CSV column separator character, uses ',' by default
+state_column: 1                                                           # Position of column for state if any
+keys_column: 2                                                            # Position of column for keys
+comments_column: 0                                                        # Position of column for comments if any
+excluded_states: ["ios"] 
